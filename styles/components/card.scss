@@ -1,14 +1,22 @@
+$wth: 300px;
+$ht: 200px;
+
 .card {
+  
+
+&-title {
 }
 
-.card-title {
+&-description {
 }
 
-.card-description {
+&-image {
+  
 }
 
-.card-image {
+&-image > img {
+  object-fit: cover;
+  width: $wth;
+  min-height: $ht;
 }
-
-.card-image > img {
 }

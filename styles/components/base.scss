@@ -1,3 +1,4 @@
+$cl: black;
 * {
   box-sizing: border-box;
 }
@@ -6,7 +7,7 @@ html {
   font-weight: 400;
   font-family: "Roboto";
   background-color: #ffffff;
-  color: #000000;
+  color: $cl;
 }
 
 .container {
@@ -18,13 +19,30 @@ html {
   position: relative;
   overflow: hidden;
 }
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 32px;
+  font-weight: 800;
+ 
+  &:hover {
+    text-decoration: none;
+  }
+}
+.main {
+  padding-top: 10px;
+}
 a {
-  color: black;
+  color: $cl;
   text-decoration: none;
 }
 
 a:hover {
-  color: black;
+  color: $cl;
   text-decoration: underline;
 }
 
@@ -34,7 +52,7 @@ figure {
 
 img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 p,

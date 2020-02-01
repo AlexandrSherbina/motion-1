@@ -1,8 +1,13 @@
 .hero {
+    color: white;
+    padding-top: 15px;
+    background-color: rgb(126, 189, 214);
+    &-title {
+    }
+    
+    &-description {
+        padding-bottom: 10px;
+    }
+    
 }
 
-.hero-title {
-}
-
-.hero-subtitle {
-}

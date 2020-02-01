@@ -1,4 +1,10 @@
+$color: white;
+$bg: black;
+
 .footer {
-  background-color: black;
-  color: white;
+  background: $bg;
+  color: $color;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

@@ -1,9 +1,22 @@
+$cl: rgba(245, 0, 0, 0.979);
 .nav {
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+
+& &-item {
+    padding-right: 25px;
 }
-.nav .nav-item {
-}
-.nav .nav-item:hover {
+& &-item:hover {
+    display: table;
+    border-bottom: 4px solid $cl ;
+    padding-bottom: 10px;
+    /*line-height: 4;*/
+    text-decoration: none;
+       
 }
 
-.nav .is-active {
+& .is-active {
+    color: $cl;
+}
 }

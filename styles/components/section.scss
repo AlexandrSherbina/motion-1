@@ -1,10 +1,19 @@
 .section {
   padding: 100px 0;
+
+
+&-title {
+}
+&-subtitle {
+}
+&-description {
+}
+&-services {
+  text-align: center;
+ /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;*/
 }
 
-.section-title {
-}
-.section-subtitle {
-}
-.section-description {
 }

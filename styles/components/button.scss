@@ -1,3 +1,4 @@
+
 .button {
   margin: 0;
   border: 2px solid transparent;
@@ -10,64 +11,67 @@
   text-decoration: none;
   -webkit-appearance: none;
   appearance: none;
-}
-.button:hover {
-  text-decoration: none;
-}
-
-.button-large {
-  padding: 32px 64px;
-  font-size: 20px;
-}
-.button-medium {
-  padding: 16px 32px;
-  font-size: 16px;
-}
-.button-small {
-  padding: 4px 8px;
-  font-size: 12px;
-}
-
-.button-primary {
-  background-color: #4dffea;
-  color: #000000;
-}
-
-.button-primary:hover {
-  background-color: #000000;
-  color: #4dffea;
-  border-color: #4dffea;
-}
-
-.button-success {
-  background-color: green;
-  color: #ffffff;
-}
-
-.button-success:hover {
-  background-color: transparent;
-  color: green;
-  border-color: green;
-}
-
-.button-danger {
-  background-color: red;
-  color: #ffffff;
-}
-
-.button-danger:hover {
-  background-color: transparent;
-  color: red;
-  border-color: red;
-}
-
-.button-warning {
-  background-color: yellow;
-  color: #ffffff;
-}
-
-.button-warning:hover {
-  background-color: transparent;
-  color: yellow;
-  border-color: yellow;
+  &:hover {
+    text-decoration: none;
+  }
+  
+  &-large {
+    padding: 32px 64px;
+    font-size: 20px;
+  }
+  &-medium {
+    padding: 16px 32px;
+    font-size: 16px;
+  }
+  &-small {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+  
+  &-primary {
+    background-color: red;
+    color: white;
+    padding: 12px 15px;
+    font-weight: bold;
+  }
+  
+  &-primary:hover {
+    background-color: white;
+    color: red;
+    border-color: red;
+  }
+  
+  &-success {
+    background-color: green;
+    color: #ffffff;
+  }
+  
+  &-success:hover {
+    background-color: transparent;
+    color: green;
+    border-color: green;
+  }
+  
+  &-danger {
+    background-color: red;
+    color: #ffffff;
+  }
+  
+  &-danger:hover {
+    background-color: transparent;
+    color: red;
+    border-color: red;
+  }
+  
+  &-warning {
+    background-color: yellow;
+    color: #ffffff;
+  }
+  
+  &-warning:hover {
+    background-color: transparent;
+    color: yellow;
+    border-color: yellow;
+  }
+  
 }

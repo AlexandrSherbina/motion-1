@@ -32,7 +32,8 @@
   content: "\e902"; }
 
 .icon-search:before {
-  content: "\e903";
-  font-size: 25px; }
+  content: "\e903"; }
+  .icon-search::before-search:hover {
+    text-decoration: none; }
 
 /*# sourceMappingURL=fonts.css.map */

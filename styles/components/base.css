@@ -6,7 +6,7 @@ html {
   font-weight: 400;
   font-family: "Roboto";
   background-color: #ffffff;
-  color: #000000; }
+  color: black; }
 
 .container {
   width: 1000px;
@@ -15,6 +15,21 @@ html {
 .wrapper {
   position: relative;
   overflow: hidden; }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.logo {
+  font-size: 32px;
+  font-weight: 800; }
+  .logo:hover {
+    text-decoration: none; }
+
+.main {
+  padding-top: 10px; }
 
 a {
   color: black;
@@ -29,7 +44,7 @@ figure {
 
 img {
   width: 100%;
-  height: auto; }
+  height: 100%; }
 
 p,
 ul,

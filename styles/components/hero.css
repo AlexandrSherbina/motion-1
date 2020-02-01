@@ -1,3 +1,8 @@
-
+.hero {
+  color: white;
+  padding-top: 15px;
+  background-color: #7ebdd6; }
+  .hero-description {
+    padding-bottom: 10px; }
 
 /*# sourceMappingURL=hero.css.map */

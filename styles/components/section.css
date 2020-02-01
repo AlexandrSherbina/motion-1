@@ -1,4 +1,10 @@
 .section {
   padding: 100px 0; }
+  .section-services {
+    text-align: center;
+    /* display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;*/ }
 
 /*# sourceMappingURL=section.css.map */

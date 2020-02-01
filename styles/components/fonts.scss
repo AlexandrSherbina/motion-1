@@ -40,5 +40,12 @@
 }
 .icon-search:before {
   content: "\e903";
-  font-size: 25px;
+  
+  &-search {
+    
+  }
+  &-search:hover {
+    text-decoration: none;
+
+  }
 }
