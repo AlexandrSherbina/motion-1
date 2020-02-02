@@ -2,12 +2,10 @@
   padding: none;
   margin: -20px;
   display: flex;
-  flex-wrap: wrap;
-  /* margin: -20px;*/ }
+  flex-wrap: wrap; }
   .grid-item {
     padding: 20px;
-    margin: none;
-    /* padding: 20px;*/ }
+    margin: none; }
   .grid-wrapper {
     overflow: hidden; }
   .grid-border {
@@ -17,20 +15,16 @@
     padding-bottom: 0px; }
   .grid-large {
     padding: none;
-    margin: 0 -50px;
-    /* margin: 0 -50px;*/ }
+    margin: 0 -50px; }
   .grid-large .grid-item {
     padding: 0 50px;
-    margin: none;
-    /*padding: 0 50px;*/ }
+    margin: none; }
   .grid-medium {
     padding: none;
-    margin: 0 -40px;
-    /*margin: 0 -40px;*/ }
+    margin: 0 -40px; }
   .grid-medium .grid-item {
     padding: 0 40px;
-    margin: none;
-    /*  padding: 0 40px;*/ }
+    margin: none; }
   .grid-flex-center {
     display: flex;
     justify-content: center;

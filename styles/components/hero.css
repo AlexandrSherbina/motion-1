@@ -1,7 +1,16 @@
 .hero {
   color: white;
   padding-top: 15px;
-  background-color: #76b9d4; }
+  background-color: #76b9d4;
+   /* &-foto {
+       
+
+    }
+   /* @media (min-width: 480px) {
+        &-img {
+            min-width: 200px;
+           /* min-height: auto;
+    }*/ }
   .hero-title {
     font-size: 32px; }
   .hero-description {

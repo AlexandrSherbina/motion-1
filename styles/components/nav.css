@@ -9,7 +9,6 @@
     display: table;
     border-bottom: 4px solid rgba(245, 57, 0, 0.979);
     padding-bottom: 15px;
-    /*line-height: 4;*/
     text-decoration: none; }
   .nav .is-active {
     color: rgba(255, 71, 16, 0.979); }

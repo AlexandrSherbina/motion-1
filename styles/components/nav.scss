@@ -1,8 +1,9 @@
 $cl: rgba(245, 57, 0, 0.979);
-
 $fs: 20px;
 $fw: 400;
 $pr: 5px;
+
+
 .nav {
     display: flex;
     font-weight: $fw + 200;
@@ -14,11 +15,11 @@ $pr: 5px;
     font-size: $fs;
 }
 & &-item:hover {
+  
     color: lighten($cl, 5%);
     display: table;
     border-bottom: 4px solid $cl ;
-    padding-bottom: 15px;
-    /*line-height: 4;*/
+    padding-bottom: 15px;  
     text-decoration: none;
        
 }

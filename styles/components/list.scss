@@ -1,3 +1,4 @@
+$bg: rgba(245, 57, 0, 0.979);
 .list {
   display: flex;
  
@@ -19,7 +20,7 @@
   }
   &-radius:hover {
    
-    background-color: red;
+    background-color: lighten($bg, 2%);
     
   }
   

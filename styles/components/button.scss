@@ -1,11 +1,22 @@
 $fs: 16px;
 $bgc: rgba(245, 57, 0, 0.979);
+$b-color: rgba(245, 57, 0, 0.979);
 
 
-@mixin button-variant ($cl, $bgc, $b-color) {
-  color: $cl;
-  background-color: $bgc;
-  border-color: $b-color;
+@mixin button-variant ($cl, $bgc, $b-color, $dark) {
+  @if ($dark == "dark") {
+    color: darken($cl, 10%);
+    background-color: darken($bgc, 10%);
+    border-color: darken($b-color, 10%);
+  } @else if ($dark == "light") {
+    color: lighten($cl, 10%);
+    background-color: lighten($bgc, 2%);
+    border-color: lighten($b-color, 2%);
+  } @else {
+    color: $cl;
+    background-color: $bgc;
+    border-color: $b-color;
+  } 
 }
 .button {
   margin: 0;
@@ -34,56 +45,56 @@ $bgc: rgba(245, 57, 0, 0.979);
   }
   
   &-primary {
-    @include button-variant(white, lighten($bgc, 2%),lighten($bgc, 2%));   
+    @include button-variant(white, lighten($bgc, 2%),lighten($b-color, 2%), "light");   
     padding: 12px 15px;
     font-size: $fs; 
     font-weight: bold;
   }
   
   &-primary:hover {
-    @include button-variant(red, white,red);
+    @include button-variant(red, white,red,none);
     
   }
   
   &-large {
-    @include button-variant(white, lighten($bgc, 2%),lighten($bgc, 2%));  
+    @include button-variant(white, lighten($bgc, 2%),lighten($b-color, 2%),"light");  
     font-size: $fs;
-    width: 100%;
+    min-width: 100%;
     padding: 12px 15px;
   }
   
   &-large:hover {
-    @include button-variant(red, white,red);
+    @include button-variant(red, white,red,none);
     font-size: $fs+1; 
   }
   
   &-success {
-    @include button-variant(white, green,none);
+    @include button-variant(white, green,none, none);
    
   }
   
   &-success:hover {
-    @include button-variant(green, transparent, green);
+    @include button-variant(green, transparent, green, none);
   
   }
   
   &-danger {
-    @include button-variant(white, red,none);
+    @include button-variant(white, red,none,none);
    
   }
   
   &-danger:hover {
-    @include button-variant(red, transparent,red);
+    @include button-variant(red, transparent,red, none);
     
   }
   
   &-warning {
-    @include button-variant(white, yellow,none);
+    @include button-variant(white, yellow,none, none);
     
   }
   
   &-warning:hover {
-    @include button-variant(yellow, transparent,yellow);
+    @include button-variant(yellow, transparent,yellow, none);
   
   }
   

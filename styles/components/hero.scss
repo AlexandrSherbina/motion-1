@@ -15,6 +15,13 @@ $bg:  rgb(126, 189, 214);
         font-size: $fs*1.2;
         color: lighten($cl, 40%)
     }
-    
-}
+   /* &-foto {
+       
 
+    }
+   /* @media (min-width: 480px) {
+        &-img {
+            min-width: 200px;
+           /* min-height: auto;
+    }*/
+}

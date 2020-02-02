@@ -6,11 +6,11 @@
   @include grid-variant (none, -20px);
   display: flex;
   flex-wrap: wrap;
- /* margin: -20px;*/
+ 
   &-item {
     @include grid-variant (20px, none);
 
-   /* padding: 20px;*/
+   
   }
   &-wrapper {
     
@@ -27,20 +27,20 @@
   }
   &-large {
     @include grid-variant (none, 0 -50px);
-   /* margin: 0 -50px;*/
+
   }
   &-large &-item {
     @include grid-variant (0 50px, none);
-    /*padding: 0 50px;*/
+   
   }
   
   &-medium {
     @include grid-variant (none, 0 -40px);
-    /*margin: 0 -40px;*/
+ 
   }
   &-medium &-item {
     @include grid-variant (0 40px, none);
-  /*  padding: 0 40px;*/
+
   }
   &-flex-center {
     display: flex;
