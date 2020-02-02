@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 $fs: 16px;
 $cl: white;
 $bg:  rgb(126, 189, 214);
@@ -15,13 +17,5 @@ $bg:  rgb(126, 189, 214);
         font-size: $fs*1.2;
         color: lighten($cl, 40%)
     }
-   /* &-foto {
-       
-
-    }
-   /* @media (min-width: 480px) {
-        &-img {
-            min-width: 200px;
-           /* min-height: auto;
-    }*/
+   
 }

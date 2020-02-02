@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 @mixin form-variant ($bgc, $cl, $b-color) {
   
   background-color: $bgc;
@@ -46,9 +48,45 @@
    
   }
   
+  .input::-webkit-input-placeholder {
+    @include form-variant (none, #999, none);
+    
+  }
+  
+  .input::-moz-placeholder {
+    @include form-variant (none, #999, none);
+    
+  }
+  
+  .input:-ms-input-placeholder {
+    @include form-variant (none, #999, none);
+    
+  }
+  
+  .input::-ms-input-placeholder {
+    @include form-variant (none, #999, none);
+    
+  }
+  
   .input::placeholder {
     @include form-variant (none, #999, none);
     
+  }
+  
+  .textarea::-webkit-input-placeholder {
+    @include form-variant (none, #999, none);
+  }
+  
+  .textarea::-moz-placeholder {
+    @include form-variant (none, #999, none);
+  }
+  
+  .textarea:-ms-input-placeholder {
+    @include form-variant (none, #999, none);
+  }
+  
+  .textarea::-ms-input-placeholder {
+    @include form-variant (none, #999, none);
   }
   
   .textarea::placeholder {
@@ -73,9 +111,15 @@
     bottom: 0;
     left: 0;
     width: 40px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     @include form-variant (none, #999, none);
   }
   
@@ -96,4 +140,3 @@
     height: 155px;
   }
 }
-

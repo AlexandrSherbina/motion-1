@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 $fs: 16px;
 $bgc: rgba(245, 57, 0, 0.979);
 $b-color: rgba(245, 57, 0, 0.979);
@@ -29,7 +31,8 @@ $b-color: rgba(245, 57, 0, 0.979);
   text-align: center;
   text-decoration: none;
   -webkit-appearance: none;
-  appearance: none;
+  -moz-appearance: none;
+       appearance: none;
   &:hover {
     text-decoration: none;
   }

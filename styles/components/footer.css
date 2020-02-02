@@ -1,19 +1,22 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 .footer {
   display: flex;
+  -webkit-box-pack: space-between;
+  -ms-flex-pack: space-between;
   justify-content: space-between;
   padding-top: 25px;
-  /* display: flex;*/
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
-  /* justify-content: space-between;*/
   color: white;
-  /* padding-top: 25px;*/
   padding-bottom: 20px; }
   .footer-right {
     display: flex;
+    -webkit-box-pack: space-around;
+    -ms-flex-pack: space-around;
     justify-content: space-around;
-    padding-top: none;
-    /* display: flex;
-     justify-content: space-around;*/ }
+    padding-top: none; }
   .footer-copwryte {
     padding-top: 8px; }
 

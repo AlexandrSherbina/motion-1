@@ -1,8 +1,10 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 .card-title {
   color: #1d1919; }
 .card-description {
   color: #7d6c6c; }
 .card-image > img {
+  -o-object-fit: cover;
   object-fit: cover;
   width: 300px;
   min-height: 200px; }

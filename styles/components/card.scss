@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 $wth: 300px;
 $ht: 200px;
 $cl: rgb(43, 37, 37);
@@ -18,7 +20,8 @@ $cl: rgb(43, 37, 37);
 }
 
 &-image > img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: $wth;
   min-height: $ht;
 }

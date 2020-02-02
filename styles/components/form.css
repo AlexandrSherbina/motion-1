@@ -1,3 +1,4 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 .form .form-group {
   margin-bottom: 40px; }
 .form .form-control {
@@ -33,7 +34,39 @@
   background-color: #f8f8f8;
   color: #999;
   border-color: #e5e5e5; }
+.form .input::-webkit-input-placeholder {
+  background-color: none;
+  color: #999;
+  border-color: none; }
+.form .input::-moz-placeholder {
+  background-color: none;
+  color: #999;
+  border-color: none; }
+.form .input:-ms-input-placeholder {
+  background-color: none;
+  color: #999;
+  border-color: none; }
+.form .input::-ms-input-placeholder {
+  background-color: none;
+  color: #999;
+  border-color: none; }
 .form .input::placeholder {
+  background-color: none;
+  color: #999;
+  border-color: none; }
+.form .textarea::-webkit-input-placeholder {
+  background-color: none;
+  color: #999;
+  border-color: none; }
+.form .textarea::-moz-placeholder {
+  background-color: none;
+  color: #999;
+  border-color: none; }
+.form .textarea:-ms-input-placeholder {
+  background-color: none;
+  color: #999;
+  border-color: none; }
+.form .textarea::-ms-input-placeholder {
   background-color: none;
   color: #999;
   border-color: none; }
@@ -57,8 +90,14 @@
   bottom: 0;
   left: 0;
   width: 40px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   background-color: none;
   color: #999;
