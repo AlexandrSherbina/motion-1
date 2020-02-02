@@ -14,7 +14,9 @@ $bg: black;
    display: flex;
    justify-content: space-around;
   }
-  
+  &-copwryte {
+    padding-top: 8px;
+  }
 }
 .wrapper-footer {
   background: $bg;

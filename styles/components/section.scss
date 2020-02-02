@@ -1,24 +1,22 @@
-
+$cl: rgba(0, 0, 0, 0.63);
 $fs: 16px;
 .section {
   padding: 100px 0;
 
 
 &-title {
-  
+  color: derken($cl, 10%);
 }
 &-subtitle {
   font-size: $fs + 2;
-  color: rgb(112, 112, 112);
+  color: lighten($cl, 10%);
+  margin-bottom: 0px;
 }
 &-description {
 }
 &-services {
   text-align: center;
- /* display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;*/
+ 
 }
 &-spillt {
   

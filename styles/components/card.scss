@@ -1,13 +1,16 @@
 $wth: 300px;
 $ht: 200px;
+$cl: rgb(43, 37, 37);
 
 .card {
   
 
 &-title {
+  color: darken($cl, 5%);
 }
 
 &-description {
+  color: lighten($cl, 30%);
 }
 
 &-image {

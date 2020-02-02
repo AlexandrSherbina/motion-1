@@ -5,20 +5,20 @@
     padding-right: 25px;
     font-size: 20px; }
   .nav .nav-item:hover {
-    color: rgba(245, 0, 0, 0.979);
+    color: rgba(255, 71, 16, 0.979);
     display: table;
-    border-bottom: 4px solid rgba(245, 0, 0, 0.979);
+    border-bottom: 4px solid rgba(245, 57, 0, 0.979);
     padding-bottom: 15px;
     /*line-height: 4;*/
     text-decoration: none; }
   .nav .is-active {
-    color: rgba(245, 0, 0, 0.979); }
+    color: rgba(255, 71, 16, 0.979); }
   .nav-border {
     padding-left: 4px;
     border-left: 2px solid white; }
   .nav .nav-padding {
     padding-right: 5px; }
   .nav .nav-link-footer:hover {
-    color: rgba(245, 0, 0, 0.979); }
+    color: rgba(255, 71, 16, 0.979); }
 
 /*# sourceMappingURL=nav.css.map */

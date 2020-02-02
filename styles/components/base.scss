@@ -7,7 +7,7 @@ html {
   font-weight: 400;
   font-family: "Roboto";
   background-color: #ffffff;
-  color: $cl;
+  color: darken($cl, 60%);
 }
 
 .container {

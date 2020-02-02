@@ -1,17 +1,19 @@
 $fs: 16px;
 $cl: white;
+$bg:  rgb(126, 189, 214);
 .hero {
     color: $cl;
     padding-top: 15px;
-    background-color: rgb(126, 189, 214);
+    background-color: darken($bg, 2%);
 &-title {
     font-size: $fs*2;
-
+    
     }
     
 &-description {
         padding-bottom: 10px;
-        font-size: $fs*1.5;
+        font-size: $fs*1.2;
+        color: lighten($cl, 40%)
     }
     
 }

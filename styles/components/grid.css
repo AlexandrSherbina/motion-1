@@ -7,7 +7,8 @@
   .grid-wrapper {
     overflow: hidden; }
   .grid-border {
-    border-left: 3px solid red;
+    height: 100%;
+    border-left: 3px solid rgba(255, 59, 0, 0.979);
     padding-top: 0px;
     padding-bottom: 0px; }
   .grid-large {
@@ -22,5 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center; }
+  .grid-text-center {
+    text-align: center; }
 
 /*# sourceMappingURL=grid.css.map */

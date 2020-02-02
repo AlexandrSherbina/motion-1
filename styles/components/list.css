@@ -9,7 +9,8 @@
     background-color: #fff;
     width: 35px;
     height: 35px;
-    font-size: 25px; }
+    font-size: 25px;
+    margin-left: 20px; }
   .list-radius:hover {
     background-color: red; }
 

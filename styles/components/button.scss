@@ -1,4 +1,12 @@
 $fs: 16px;
+$bgc: rgba(245, 57, 0, 0.979);
+
+
+@mixin button-variant ($cl, $bgc, $b-color) {
+  color: $cl;
+  background-color: $bgc;
+  border-color: $b-color;
+}
 .button {
   margin: 0;
   border: 2px solid transparent;
@@ -15,10 +23,7 @@ $fs: 16px;
     text-decoration: none;
   }
   
-  &-large {
-    padding: 32px 64px;
-    font-size: 20px;
-  }
+  
   &-medium {
     padding: 16px 32px;
     font-size: 16px;
@@ -29,32 +34,27 @@ $fs: 16px;
   }
   
   &-primary {
-    background-color: red;
-    color: white;
+    @include button-variant(white, lighten($bgc, 2%),lighten($bgc, 2%));   
     padding: 12px 15px;
+    font-size: $fs; 
     font-weight: bold;
   }
   
   &-primary:hover {
-    background-color: white;
-    color: red;
-    border-color: red;
+    @include button-variant(red, white,red);
+    
   }
   
   &-large {
+    @include button-variant(white, lighten($bgc, 2%),lighten($bgc, 2%));  
     font-size: $fs;
     width: 100%;
-    background-color: red;
-    color: white;
     padding: 12px 15px;
-    font-weight: bold;
   }
   
   &-large:hover {
-    font-size: $fs;
-    background-color: white;
-    color: red;
-    border-color: red;
+    @include button-variant(red, white,red);
+    font-size: $fs+1; 
   }
   
   &-success {

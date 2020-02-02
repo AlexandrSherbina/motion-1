@@ -8,6 +8,8 @@
   .footer-right {
     display: flex;
     justify-content: space-around; }
+  .footer-copwryte {
+    padding-top: 8px; }
 
 .wrapper-footer {
   background: black; }
