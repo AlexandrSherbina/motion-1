@@ -26,7 +26,7 @@ $bgc: rgba(245, 57, 0, 0.979);
   
   &-medium {
     padding: 16px 32px;
-    font-size: 16px;
+    font-size: $fs;
   }
   &-small {
     padding: 4px 8px;
@@ -58,36 +58,33 @@ $bgc: rgba(245, 57, 0, 0.979);
   }
   
   &-success {
-    background-color: green;
-    color: #ffffff;
+    @include button-variant(white, green,none);
+   
   }
   
   &-success:hover {
-    background-color: transparent;
-    color: green;
-    border-color: green;
+    @include button-variant(green, transparent, green);
+  
   }
   
   &-danger {
-    background-color: red;
-    color: #ffffff;
+    @include button-variant(white, red,none);
+   
   }
   
   &-danger:hover {
-    background-color: transparent;
-    color: red;
-    border-color: red;
+    @include button-variant(red, transparent,red);
+    
   }
   
   &-warning {
-    background-color: yellow;
-    color: #ffffff;
+    @include button-variant(white, yellow,none);
+    
   }
   
   &-warning:hover {
-    background-color: transparent;
-    color: yellow;
-    border-color: yellow;
+    @include button-variant(yellow, transparent,yellow);
+  
   }
   
 }

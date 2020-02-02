@@ -42,25 +42,28 @@
     border-color: red;
     font-size: 17px; }
   .button-success {
+    color: white;
     background-color: green;
-    color: #ffffff; }
+    border-color: none; }
   .button-success:hover {
-    background-color: transparent;
     color: green;
+    background-color: transparent;
     border-color: green; }
   .button-danger {
+    color: white;
     background-color: red;
-    color: #ffffff; }
+    border-color: none; }
   .button-danger:hover {
-    background-color: transparent;
     color: red;
+    background-color: transparent;
     border-color: red; }
   .button-warning {
+    color: white;
     background-color: yellow;
-    color: #ffffff; }
+    border-color: none; }
   .button-warning:hover {
-    background-color: transparent;
     color: yellow;
+    background-color: transparent;
     border-color: yellow; }
 
 /*# sourceMappingURL=button.css.map */

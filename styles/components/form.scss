@@ -1,3 +1,9 @@
+@mixin form-variant ($bgc, $cl, $b-color) {
+  
+  background-color: $bgc;
+  color: $cl;
+  border-color: $b-color;
+}
 .form {
   .form-group {
     margin-bottom: 40px;
@@ -10,12 +16,12 @@
   .input,
   .select,
   .textarea {
+    @include form-variant (white, #666, none);
     max-width: 100%;
     width: 100%;
     height: 55px;
     padding: 0 20px;
-    background-color: #fff;
-    color: #666;
+   
     border: 2px solid #e2d1d1;
     margin: 0;
     border-radius: none;
@@ -28,38 +34,37 @@
   .input:focus,
   .select:focus,
   .textarea:focus {
+    @include form-variant (white, #666, #1e87f0);
     outline: none;
-    background-color: #fff;
-    color: #666;
-    border-color: #1e87f0;
+   
   }
   
   .input:disabled,
   .select:disabled,
   .textarea:disabled {
-    background-color: #f8f8f8;
-    color: #999;
-    border-color: #e5e5e5;
+    @include form-variant (#f8f8f8, #999, #e5e5e5);
+   
   }
   
   .input::placeholder {
-    color: #999;
+    @include form-variant (none, #999, none);
+    
   }
   
   .textarea::placeholder {
-    color: #999;
+    @include form-variant (none, #999, none);
   }
   
   .input-danger,
   .input-danger:focus {
-    color: #f0506e;
-    border-color: #f0506e;
+    @include form-variant (none, #f0506e, #f0506e);
+    
   }
   
   .input-success,
   .input-success:focus {
-    color: #32d296;
-    border-color: #32d296;
+    @include form-variant (none, #32d296, #32d296);
+   
   }
   
   .form-icon {
@@ -71,7 +76,7 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    color: #999;
+    @include form-variant (none, #999, none);
   }
   
   .form-icon:not(.form-icon-flip) ~ .input {

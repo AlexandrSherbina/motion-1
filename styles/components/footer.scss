@@ -1,23 +1,31 @@
-$color: white;
-$bg: black;
+$cl: white;
+$bg: rgba(0, 0, 0, 0.945);
+
+@mixin footer-variant ($ds, $jc, $pt) {
+ display: $ds;
+ justify-content: $jc;
+ padding-top: $pt;
+}
 
 .footer {
-  display: flex;
+  @include  footer-variant (flex, space-between, 25px);
+ /* display: flex;*/
   flex-direction: row;
-  justify-content: space-between;
+ /* justify-content: space-between;*/
   
-  color: $color;
-  padding-top: 25px;
+  color: $cl;
+ /* padding-top: 25px;*/
   padding-bottom: 20px;
   
   &-right {
-   display: flex;
-   justify-content: space-around;
+    @include  footer-variant (flex, space-around, none);
+  /* display: flex;
+   justify-content: space-around;*/
   }
   &-copwryte {
     padding-top: 8px;
   }
 }
 .wrapper-footer {
-  background: $bg;
+  background: darken($bg, 10%);
 }

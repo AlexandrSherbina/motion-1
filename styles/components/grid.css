@@ -1,9 +1,13 @@
 .grid {
+  padding: none;
+  margin: -20px;
   display: flex;
   flex-wrap: wrap;
-  margin: -20px; }
+  /* margin: -20px;*/ }
   .grid-item {
-    padding: 20px; }
+    padding: 20px;
+    margin: none;
+    /* padding: 20px;*/ }
   .grid-wrapper {
     overflow: hidden; }
   .grid-border {
@@ -12,13 +16,21 @@
     padding-top: 0px;
     padding-bottom: 0px; }
   .grid-large {
-    margin: 0 -50px; }
+    padding: none;
+    margin: 0 -50px;
+    /* margin: 0 -50px;*/ }
   .grid-large .grid-item {
-    padding: 0 50px; }
+    padding: 0 50px;
+    margin: none;
+    /*padding: 0 50px;*/ }
   .grid-medium {
-    margin: 0 -40px; }
+    padding: none;
+    margin: 0 -40px;
+    /*margin: 0 -40px;*/ }
   .grid-medium .grid-item {
-    padding: 0 40px; }
+    padding: 0 40px;
+    margin: none;
+    /*  padding: 0 40px;*/ }
   .grid-flex-center {
     display: flex;
     justify-content: center;

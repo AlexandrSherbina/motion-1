@@ -1,10 +1,16 @@
-
+@mixin grid-variant ($pad, $mar){
+  padding: $pad;
+  margin: $mar;
+}
 .grid {
+  @include grid-variant (none, -20px);
   display: flex;
   flex-wrap: wrap;
-  margin: -20px;
+ /* margin: -20px;*/
   &-item {
-    padding: 20px;
+    @include grid-variant (20px, none);
+
+   /* padding: 20px;*/
   }
   &-wrapper {
     
@@ -20,17 +26,21 @@
     
   }
   &-large {
-    margin: 0 -50px;
+    @include grid-variant (none, 0 -50px);
+   /* margin: 0 -50px;*/
   }
   &-large &-item {
-    padding: 0 50px;
+    @include grid-variant (0 50px, none);
+    /*padding: 0 50px;*/
   }
   
   &-medium {
-    margin: 0 -40px;
+    @include grid-variant (none, 0 -40px);
+    /*margin: 0 -40px;*/
   }
   &-medium &-item {
-    padding: 0 40px;
+    @include grid-variant (0 40px, none);
+  /*  padding: 0 40px;*/
   }
   &-flex-center {
     display: flex;
