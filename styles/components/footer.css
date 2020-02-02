@@ -2,12 +2,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: black;
   color: white;
   padding-top: 25px;
   padding-bottom: 20px; }
   .footer-right {
     display: flex;
     justify-content: space-around; }
+
+.wrapper-footer {
+  background: black; }
 
 /*# sourceMappingURL=footer.css.map */

@@ -5,13 +5,17 @@ $bg: black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: $bg;
+  
   color: $color;
   padding-top: 25px;
   padding-bottom: 20px;
+  
   &-right {
    display: flex;
    justify-content: space-around;
   }
   
+}
+.wrapper-footer {
+  background: $bg;
 }

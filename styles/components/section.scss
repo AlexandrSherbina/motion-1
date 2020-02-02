@@ -1,11 +1,14 @@
+
+$fs: 16px;
 .section {
   padding: 100px 0;
 
 
 &-title {
+  
 }
 &-subtitle {
-  font-size: 18px;
+  font-size: $fs + 2;
   color: rgb(112, 112, 112);
 }
 &-description {
@@ -19,5 +22,16 @@
 }
 &-spillt {
   
+}
+&-discuss {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+&-title-padding {
+  padding-bottom: 30px;
 }
 }

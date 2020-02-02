@@ -30,6 +30,18 @@
     background-color: white;
     color: red;
     border-color: red; }
+  .button-large {
+    font-size: 16px;
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 12px 15px;
+    font-weight: bold; }
+  .button-large:hover {
+    font-size: 16px;
+    background-color: white;
+    color: red;
+    border-color: red; }
   .button-success {
     background-color: green;
     color: #ffffff; }

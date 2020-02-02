@@ -12,8 +12,14 @@
   &-radius {
     border-radius: 50%;
     background-color: #fff;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+   
+  }
+  &-radius:hover {
+   
+    background-color: red;
     
   }
   

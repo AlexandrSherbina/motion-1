@@ -1,12 +1,17 @@
+$fs: 16px;
+$cl: white;
 .hero {
-    color: white;
+    color: $cl;
     padding-top: 15px;
     background-color: rgb(126, 189, 214);
-    &-title {
+&-title {
+    font-size: $fs*2;
+
     }
     
-    &-description {
+&-description {
         padding-bottom: 10px;
+        font-size: $fs*1.5;
     }
     
 }

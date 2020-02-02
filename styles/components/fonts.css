@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap");
 @font-face {
   font-family: "motion";
   src: url("../../fonts/motion.eot?f8nqcj");
@@ -20,19 +21,30 @@
   -moz-osx-font-smoothing: grayscale; }
 
 .icon-heart:after {
-  content: "\e904"; }
+  content: "\e904";
+  padding-left: 8px; }
 
 .icon-linkedin:before {
-  content: "\e900";
-  color: black; }
+  content: "\e900"; }
+
+.icon-linkedin:hover {
+  text-decoration: none;
+  color: white; }
 
 .icon-facebook:before {
-  content: "\e901";
-  color: black; }
+  content: "\e901"; }
+
+.icon-facebook:hover {
+  text-decoration: none;
+  color: white; }
 
 .icon-insta:before {
-  content: "\e902";
-  color: black; }
+  content: "\e902"; }
+
+.icon-insta:hover {
+  text-decoration: none;
+  color: white;
+  font-size: 18px; }
 
 .icon-search:before {
   content: "\e903"; }

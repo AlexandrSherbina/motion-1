@@ -1,13 +1,14 @@
 .nav {
   display: flex;
-  font-weight: 600;
-  font-size: 20px; }
+  font-weight: 600; }
   .nav .nav-item {
-    padding-right: 25px; }
+    padding-right: 25px;
+    font-size: 20px; }
   .nav .nav-item:hover {
+    color: rgba(245, 0, 0, 0.979);
     display: table;
     border-bottom: 4px solid rgba(245, 0, 0, 0.979);
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     /*line-height: 4;*/
     text-decoration: none; }
   .nav .is-active {
@@ -15,5 +16,9 @@
   .nav-border {
     padding-left: 4px;
     border-left: 2px solid white; }
+  .nav .nav-padding {
+    padding-right: 5px; }
+  .nav .nav-link-footer:hover {
+    color: rgba(245, 0, 0, 0.979); }
 
 /*# sourceMappingURL=nav.css.map */

@@ -1,4 +1,4 @@
-
+$fs: 16px;
 .button {
   margin: 0;
   border: 2px solid transparent;
@@ -36,6 +36,22 @@
   }
   
   &-primary:hover {
+    background-color: white;
+    color: red;
+    border-color: red;
+  }
+  
+  &-large {
+    font-size: $fs;
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 12px 15px;
+    font-weight: bold;
+  }
+  
+  &-large:hover {
+    font-size: $fs;
     background-color: white;
     color: red;
     border-color: red;

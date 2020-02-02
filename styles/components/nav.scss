@@ -1,16 +1,23 @@
 $cl: rgba(245, 0, 0, 0.979);
+
+$fs: 20px;
+$fw: 400;
+$pr: 5px;
 .nav {
     display: flex;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: $fw + 200;
+   
+    
 
 & &-item {
-    padding-right: 25px;
+    padding-right: $pr+20; 
+    font-size: $fs;
 }
 & &-item:hover {
+    color: $cl;
     display: table;
     border-bottom: 4px solid $cl ;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     /*line-height: 4;*/
     text-decoration: none;
        
@@ -22,5 +29,15 @@ $cl: rgba(245, 0, 0, 0.979);
 &-border {
     padding-left: 4px;
     border-left: 2px solid white;
+}
+& &-padding {
+    padding-right: $pr;   
+}
+& &-link-footer {
+
+}
+& &-link-footer:hover {
+    
+    color: $cl;
 }
 }
