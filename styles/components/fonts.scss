@@ -25,18 +25,22 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+$cl: black;
 .icon-heart:after {
   content: "\e904";
 }
 .icon-linkedin:before {
   content: "\e900";
+  color: $cl;
+  
 }
 .icon-facebook:before {
   content: "\e901";
+  color: $cl;
 }
 .icon-insta:before {
   content: "\e902";
+  color: $cl;
 }
 .icon-search:before {
   content: "\e903";

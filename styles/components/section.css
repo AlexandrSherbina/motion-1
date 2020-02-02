@@ -1,5 +1,8 @@
 .section {
   padding: 100px 0; }
+  .section-subtitle {
+    font-size: 18px;
+    color: #707070; }
   .section-services {
     text-align: center;
     /* display: flex;

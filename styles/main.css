@@ -86,6 +86,9 @@ h6 {
     text-decoration: none; }
   .nav .is-active {
     color: rgba(245, 0, 0, 0.979); }
+  .nav-border {
+    padding-left: 4px;
+    border-left: 2px solid white; }
 
 .hero {
   color: white;
@@ -96,6 +99,9 @@ h6 {
 
 .section {
   padding: 100px 0; }
+  .section-subtitle {
+    font-size: 18px;
+    color: #707070; }
   .section-services {
     text-align: center;
     /* display: flex;
@@ -111,6 +117,10 @@ h6 {
     padding: 20px; }
   .grid-wrapper {
     overflow: hidden; }
+  .grid-border {
+    border-left: 3px solid red;
+    padding-top: 0px;
+    padding-bottom: 0px; }
   .grid-large {
     margin: 0 -50px; }
   .grid-large .grid-item {
@@ -119,7 +129,7 @@ h6 {
     margin: 0 -40px; }
   .grid-medium .grid-item {
     padding: 0 40px; }
-  .grid-hero {
+  .grid-flex-center {
     display: flex;
     justify-content: center;
     align-items: center; }
@@ -350,13 +360,16 @@ h6 {
   content: "\e904"; }
 
 .icon-linkedin:before {
-  content: "\e900"; }
+  content: "\e900";
+  color: black; }
 
 .icon-facebook:before {
-  content: "\e901"; }
+  content: "\e901";
+  color: black; }
 
 .icon-insta:before {
-  content: "\e902"; }
+  content: "\e902";
+  color: black; }
 
 .icon-search:before {
   content: "\e903"; }
@@ -364,10 +377,27 @@ h6 {
     text-decoration: none; }
 
 .footer {
-  background: black;
-  color: white;
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  background: black;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 20px; }
+  .footer-right {
+    display: flex;
+    justify-content: space-around; }
+
+.list {
+  display: flex; }
+  .list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .list-radius {
+    border-radius: 50%;
+    background-color: #fff;
+    width: 30px;
+    height: 30px; }
 
 /*# sourceMappingURL=main.css.map */

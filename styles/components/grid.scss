@@ -7,22 +7,30 @@
     padding: 20px;
   }
   &-wrapper {
+    
     overflow: hidden;
+    
+  }
+  &-border {
+    border-left: 3px solid red;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
   }
   &-large {
     margin: 0 -50px;
   }
-  &-large .grid-item {
+  &-large &-item {
     padding: 0 50px;
   }
   
   &-medium {
     margin: 0 -40px;
   }
-  &-medium .grid-item {
+  &-medium &-item {
     padding: 0 40px;
   }
-  &-hero {
+  &-flex-center {
     display: flex;
     justify-content: center;
     align-items: center;

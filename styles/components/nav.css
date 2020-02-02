@@ -12,5 +12,8 @@
     text-decoration: none; }
   .nav .is-active {
     color: rgba(245, 0, 0, 0.979); }
+  .nav-border {
+    padding-left: 4px;
+    border-left: 2px solid white; }
 
 /*# sourceMappingURL=nav.css.map */

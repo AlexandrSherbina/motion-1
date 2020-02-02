@@ -6,6 +6,10 @@
     padding: 20px; }
   .grid-wrapper {
     overflow: hidden; }
+  .grid-border {
+    border-left: 3px solid red;
+    padding-top: 0px;
+    padding-bottom: 0px; }
   .grid-large {
     margin: 0 -50px; }
   .grid-large .grid-item {
@@ -14,7 +18,7 @@
     margin: 0 -40px; }
   .grid-medium .grid-item {
     padding: 0 40px; }
-  .grid-hero {
+  .grid-flex-center {
     display: flex;
     justify-content: center;
     align-items: center; }

@@ -23,13 +23,16 @@
   content: "\e904"; }
 
 .icon-linkedin:before {
-  content: "\e900"; }
+  content: "\e900";
+  color: black; }
 
 .icon-facebook:before {
-  content: "\e901"; }
+  content: "\e901";
+  color: black; }
 
 .icon-insta:before {
-  content: "\e902"; }
+  content: "\e902";
+  color: black; }
 
 .icon-search:before {
   content: "\e903"; }

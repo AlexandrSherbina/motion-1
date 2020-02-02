@@ -19,4 +19,8 @@ $cl: rgba(245, 0, 0, 0.979);
 & .is-active {
     color: $cl;
 }
+&-border {
+    padding-left: 4px;
+    border-left: 2px solid white;
+}
 }
