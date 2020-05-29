@@ -1,0 +1,2 @@
+.list{display:-webkit-box;display:-ms-flexbox;display:flex}.list-item{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.list-radius{border-radius:50%;background-color:#fff;width:35px;height:35px;font-size:25px;margin-left:20px}.list-radius:hover{background-color:rgba(255,59,0,0.979)}
+/*# sourceMappingURL=list.min.css.map */

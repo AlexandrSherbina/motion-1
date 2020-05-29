@@ -15,15 +15,16 @@ $pr: 5px;
     
 
 & &-item {
+   
     padding-right: $pr+20; 
     font-size: $fs;
 }
 & &-item:hover {
   
     color: lighten($cl, 5%);
-    display: table;
-    border-bottom: 4px solid $cl ;
-    padding-bottom: 15px;  
+    // display: table;
+    border-bottom: 1px solid $cl ;
+    // padding-bottom: 15px;  
     text-decoration: none;
        
 }
@@ -38,9 +39,9 @@ $pr: 5px;
 & &-padding {
     padding-right: $pr;   
 }
-& &-link-footer {
+// & &-link-footer {
 
-}
+// }
 & &-link-footer:hover {
     
     color: lighten($cl, 5%);
