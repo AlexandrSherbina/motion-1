@@ -15,17 +15,25 @@ $pr: 5px;
     
 
 & &-item {
-   
+    
     padding-right: $pr+20; 
     font-size: $fs;
+    animation: 0.5s all;
 }
 & &-item:hover {
-  
+   
+    transform: translateZ(20px);
+    // transform: perspective(400px);
+    font-size: $fs + 5px;
     color: lighten($cl, 5%);
     // display: table;
-    border-bottom: 1px solid $cl ;
+    // border-bottom: 4px solid $cl ;
     // padding-bottom: 15px;  
     text-decoration: none;
+    
+    // animation-timing-function: linear;
+
+
        
 }
 
